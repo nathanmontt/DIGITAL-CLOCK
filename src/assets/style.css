@@ -5,11 +5,7 @@
     font-family: "Montserrat", sans-serif;
     list-style-type: none;
     text-decoration: none;
-
-    --mainSizeFont: 3em;
-    --mainClockColor: white;
 }
-
 body {
     background-image: url("img/anastasia-zanko-unsplash.jpg");
     background-position: center;
@@ -20,14 +16,12 @@ body {
 #clock-container {
     min-height: 100vh;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 #clock {
-    font-size: var(--mainSizeFont);
-    color: var(--mainClockColor);
+    font-size: 3em;
+    color: white;
     backdrop-filter: blur(20px);
     padding: 1em 5em;
-    border-radius: 5px;
 }
